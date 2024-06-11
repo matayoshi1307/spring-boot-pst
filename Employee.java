@@ -12,11 +12,11 @@ import jakarta.persistence.Table;
 //Employeeクラスを定義
 public class Employee {
    @Id
-   //Employeeテーブルのidカラムを参照するという定義
+    //Employeeテーブルのidカラムを参照するという定義
     private Integer id;
-   //Employeeテーブルのnameカラムを参照するという定義
+    //Employeeテーブルのnameカラムを参照するという定義
     private String name;
-   //Employeeテーブルのromajiカラムを参照する という定義
+    //Employeeテーブルのromajiカラムを参照する という定義
     private String romaji;
     //参照したidカラムの値を取得する
     public Integer getId() {
